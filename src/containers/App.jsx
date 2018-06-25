@@ -1,6 +1,10 @@
 import React from 'react';
-import '../../assets/scss/main.scss';
+
+import Layout from './Layout';
+
+import '../assets/scss/main.scss';
 import 'font-awesome-sass-loader';
+import BurgerBuilder from './BurgerBuilder';
 
 class App extends React.Component {
     constructor(props) {
@@ -9,9 +13,9 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>React</h1>
-            </div>
+            <Layout>
+                <BurgerBuilder />
+            </Layout>
         )
     }
 }

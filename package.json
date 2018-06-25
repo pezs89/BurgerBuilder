@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "font-awesome-sass-loader": "^2.0.1"
+    "font-awesome-sass-loader": "^2.0.1",
+    "npm": "^6.1.0"
   }
 }
