@@ -32,24 +32,7 @@
         align-items: center;
         justify-content: center;
     }
-
-    &__button {
-        outline: none;
-        background-color: #00BFC5;
-        color: #fff;
-        border: 1px solid #00BFC5;
-        height: 30px;
-        width: calc(50% - 10px);
-        cursor: pointer;
-        border-radius: 3px;
-        transform: scale(0.95);
-        transition: transform 0.2s ease-in-out;
-        text-transform: uppercase;
-        &:hover {
-            transform: scale(1);
-        }
-    }
-
+    
     .control-container {
         width: 100%;
         margin: 10px 0;
@@ -78,6 +61,9 @@
             }
             &:hover {
                 transform: scale(1);
+            }
+            &:disabled {
+                opacity: 0.5;
             }
         }
     }
